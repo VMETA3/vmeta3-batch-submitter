@@ -1,0 +1,6 @@
+{
+	"name": "@vmeta3/batch-submitter-service",
+	"version": "0.1.12",
+	"private": true,
+	"devDependencies": {}
+}

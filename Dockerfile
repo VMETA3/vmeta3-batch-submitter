@@ -8,6 +8,7 @@ COPY ./l2geth /go/l2geth
 COPY ./batch-submitter/docker.go.work /go/go.work
 
 WORKDIR /go/batch-submitter
+RUN rm -rf .git
 RUN make
 
 FROM alpine:3.15
